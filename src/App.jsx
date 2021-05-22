@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-import Demo from './Demo';
+import Board from './Board';
 
 function App() {
-  return (
-    <>
-      <Demo></Demo>
-    </>
-  );
+  return <Board knightPosition={[7, 4]}></Board>;
 }
 
 export default App;
