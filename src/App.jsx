@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import './App.css';
-import Container from './dustbin/Container';
+import Example from './around/Example';
 
 function App() {
-  return <Container></Container>;
+  return <Example></Example>;
 }
 
 export default App;
