@@ -1,4 +1,3 @@
-import React from 'react';
 import { ItemTypes } from './ItemTypes';
 import { useDrag, DragPreviewImage } from 'react-dnd';
 import knightImage from './head.png';

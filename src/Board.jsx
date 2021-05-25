@@ -1,4 +1,3 @@
-import React from 'react';
 import Square from './Square';
 import Knight from './Knight';
 import { moveKnight, canMoveKnight } from './Game';

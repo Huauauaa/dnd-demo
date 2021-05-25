@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { Card } from 'antd';
 
 export default class CardItem extends Component {

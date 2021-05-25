@@ -1,4 +1,3 @@
-import React from 'react';
 import Square from './Square';
 import { useDrop } from 'react-dnd';
 import { ItemTypes } from './ItemTypes';
