@@ -1,6 +1,6 @@
 import Square from './Square';
 import { useDrop } from 'react-dnd';
-import { ItemTypes } from './ItemTypes';
+import { ItemTypes } from '../ItemTypes';
 import { canMoveKnight, moveKnight } from './Game';
 
 export default function BoardSquare({ x, y, children }) {

@@ -1,15 +1,8 @@
-import Square from './Square';
 import Knight from './Knight';
-import { moveKnight, canMoveKnight } from './Game';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import BoardSquare from './BoardSquare';
 
-function handleSquareClick(toX, toY) {
-  if (canMoveKnight(toX, toY)) {
-    moveKnight(toX, toY);
-  }
-}
 
 function renderPiece(x, y, [knightX, knightY]) {
   if (x === knightX && y === knightY) {
