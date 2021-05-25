@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-import Board from './Board';
+import Container from './dustbin/Container';
 
 function App() {
-  return <Board knightPosition={[7, 4]}></Board>;
+  return <Container></Container>;
 }
 
 export default App;
